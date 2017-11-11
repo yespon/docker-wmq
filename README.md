@@ -19,7 +19,7 @@ docker commit wmq_container yespon/wmq8:1.0
 
 ##制作可以提供服务的MQ image
 1. 请在以下地址下载相关的配置脚本
-[http://git.oschina.net/gongxusheng/docker-wmq](http://git.oschina.net/gongxusheng/docker-wmq)
+[https://github.com/yespon/docker-wmq](https://github.com/yespon/docker-wmq)
 其中MQ队列管理器的配置和启动脚本在start_queue_manager.sh中，可以根据你的规划做相应的修改
 如果端口不是默认的1414，请同时在Dockerfile中修改EXPOSE
 2. 在Dockerfile目录中执行，创建image
